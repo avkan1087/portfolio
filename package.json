@@ -1,0 +1,22 @@
+{
+   "name": "portfolio",
+   "version": "1.0.0",
+   "description": "Responsive portfolio website",
+   "main": "index.js",
+   "scripts": {
+      "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/avkan1087/portfolio.git"
+   },
+   "author": "",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/avkan1087/portfolio/issues"
+   },
+   "homepage": "https://github.com/avkan1087/portfolio#readme",
+   "dependencies": {
+      "node-sass": "^4.14.1"
+   }
+}
