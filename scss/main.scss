@@ -9,7 +9,7 @@
 body {
    @include background;
    background: $p-color;
-   color: #fff;
+   color: set-text-color($p-color);
    height: 100%;
    margin: 0;
    font-family: "Segoe UI", Verdana, Geneva, Tahoma, sans-serif;
@@ -28,8 +28,8 @@ h3 {
 
    &.sm-heading {
       margin-bottom: 2rem;
-      padding: 0.2rem 1rem;
-      background: rgba(lighten($color: $p-color, $amount: 2), 0.5);
+      padding: 0.2rem 0;
+      // background: rgba(lighten($color: $p-color, $amount: 2), 0.5);
    }
 }
 

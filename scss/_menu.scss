@@ -14,7 +14,7 @@
       width: 28px;
       height: 3px;
       margin: 0 0 5px 0;
-      background: #fff;
+      background: set-text-color($p-color);
       @include easeOut;
    }
 
@@ -41,7 +41,6 @@
    position: fixed;
    top: 0;
    width: 100%;
-   opacity: 0.9;
    visibility: hidden;
 
    &.show {
@@ -61,6 +60,7 @@
    }
 
    &-nav {
+      opacity: 0.9;
       margin: 0;
       padding: 0;
       background: darken($p-color, 5);
@@ -74,6 +74,7 @@
    }
 
    &-branding {
+      opacity: 0.97;
       background: $p-color;
       transform: translate3d(0, 100%, 0);
       @include easeOut;
@@ -112,7 +113,7 @@
       text-transform: uppercase;
       padding: 1rem 0;
       font-weight: 300;
-      color: #fff;
+      color: set-text-color($p-color);
       text-decoration: none;
       @include easeOut;
 
