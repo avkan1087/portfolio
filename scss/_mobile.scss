@@ -3,6 +3,14 @@
 }
 // laptops
 @include mediaLg {
+   .about-info {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-areas:
+         "bioimge bio bio bio "
+         "skill-1 skill-2 skill-3 skill-4";
+      grid-template-columns: repeat(4, 1fr);
+   }
 }
 // tablets
 @include mediaMd {
@@ -41,6 +49,24 @@
          background: url(/img/avi-s.png);
          width: 150px;
          height: 150px;
+      }
+   }
+
+   .about-info {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-areas:
+         "bioimge"
+         "bio"
+         "skill-1";
+      grid-template-columns: 1fr;
+   }
+
+   .skill {
+      width: 300px;
+
+      p {
+         margin: auto auto;
       }
    }
 }
