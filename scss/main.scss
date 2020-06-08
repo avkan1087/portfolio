@@ -46,6 +46,17 @@ header {
 .text-secondary {
    color: $s-color;
 }
+
+.sm-heading {
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   padding: 0.2rem 0;
+}
+
+.txt-type > .txt {
+   border-right: 0.2rem solid $s-color;
+}
+
 main {
    padding: 4rem;
    min-height: calc(100vh - 60px);
